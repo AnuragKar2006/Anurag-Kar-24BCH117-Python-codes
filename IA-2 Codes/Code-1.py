@@ -1,0 +1,5 @@
+fl = open("sample.txt", "r")
+text1 = fl.read()
+text = text1.lower()
+print("Name: ", text.count("anurag"))
+fl.close()
